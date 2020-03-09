@@ -23,20 +23,20 @@ enum TabItems: Int, CaseIterable {
         return UITabBarItem(tabBarSystemItem: self.systemItem, tag: self.rawValue)
     }
     
-    var viewController: UIViewController {
-        switch self {
-        case .stories:
-            let feedViewController = FeedViewController()
-            feedViewController.tabBarItem = self.tabItem
-            let feedNavigationController = FeedNavigationController(rootViewController: feedViewController)
-            feedNavigationController.title = "Top Stories"
-            return feedNavigationController
-        case .favorites:
-            let favoritesViewController = FavoritesViewController()
-            favoritesViewController.tabBarItem = self.tabItem
-            let favoritesNavigationController = FavoritesNavigationController(rootViewController: favoritesViewController)
-            favoritesNavigationController.title = "Favorites"
-            return favoritesNavigationController
-        }
-    }
+//    var viewController: UIViewController {
+//        switch self {
+//        case .stories:
+//            let feedViewController = FeedViewController(store: FeedStore())
+//            feedViewController.tabBarItem = self.tabItem
+//            let feedNavigationController = FeedNavigationController(rootViewController: feedViewController)
+//            feedNavigationController.title = "Top Stories"
+//            return feedNavigationController
+//        case .favorites:
+//            let favoritesViewController = FavoritesViewController()
+//            favoritesViewController.tabBarItem = self.tabItem
+//            let favoritesNavigationController = FavoritesNavigationController(rootViewController: favoritesViewController)
+//            favoritesNavigationController.title = "Favorites"
+//            return favoritesNavigationController
+//        }
+//    }
 }

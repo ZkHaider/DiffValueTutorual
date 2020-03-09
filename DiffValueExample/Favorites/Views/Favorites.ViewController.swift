@@ -10,6 +10,10 @@ import UIKit
 
 final class FavoritesViewController: UIViewController {
     
+    // MARK: - Store
+    
+    let store: FavoritesStore
+    
     // MARK: - Views
     
     var _view: FavoritesView {
@@ -18,7 +22,8 @@ final class FavoritesViewController: UIViewController {
     
     // MARK: - Init
     
-    init() {
+    init(store: FavoritesStore) {
+        self.store = store 
         super.init(nibName: nil, bundle: nil)
         initialize()
     }

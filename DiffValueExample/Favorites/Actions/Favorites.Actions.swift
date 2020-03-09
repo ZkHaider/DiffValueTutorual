@@ -1,5 +1,5 @@
 //
-//  Action.swift
+//  Favorites.Actions.swift
 //  DiffValueExample
 //
 //  Created by Haider Khan on 3/8/20.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol Action {}
-
-public protocol CodableAction: Action, Codable {}
+public enum FavoritesActions: Action {
+    case saveStory
+}

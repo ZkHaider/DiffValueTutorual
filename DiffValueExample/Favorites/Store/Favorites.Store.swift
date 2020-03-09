@@ -1,5 +1,5 @@
 //
-//  Feed.Store.swift
+//  Favorites.Storw.swift
 //  DiffValueExample
 //
 //  Created by Haider Khan on 3/8/20.
@@ -7,13 +7,14 @@
 //
 
 import DiffValue
+import Combine
 
-final class FeedStore: SubStore<FeedState, FeedActions> {
+final class FavoritesStore: SubStore<FavoritesState, FavoritesActions> {
     
     // MARK: - Reducer
     
-    override var reducer: Reducer<FeedState, FeedActions> {
-        return feedReducer
+    override var reducer: Reducer<FavoritesState, FavoritesActions> {
+        return favoritesReducer
     }
     
     // MARK: - Init

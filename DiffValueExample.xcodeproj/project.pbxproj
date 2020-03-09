@@ -19,6 +19,8 @@
 		C41F4E782415AEBA006BBD4C /* Favorites.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F4E772415AEBA006BBD4C /* Favorites.ViewController.swift */; };
 		C41F4E7A2415AEE1006BBD4C /* Favorites.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F4E792415AEE1006BBD4C /* Favorites.View.swift */; };
 		C41F4E7C2415AF2F006BBD4C /* Root.Tab.Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F4E7B2415AF2F006BBD4C /* Root.Tab.Items.swift */; };
+		C452C36C2415FFC5006404EF /* Subscription.Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452C36B2415FFC5006404EF /* Subscription.Map.swift */; };
+		C452C37524160313006404EF /* DiffValueExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452C37424160313006404EF /* DiffValueExampleTests.swift */; };
 		C4C1D6A12415B96B00039660 /* Feed.Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6A02415B96A00039660 /* Feed.Cell.swift */; };
 		C4C1D6A42415C97300039660 /* Feed.Vertical.AlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6A32415C97300039660 /* Feed.Vertical.AlignedLabel.swift */; };
 		C4C1D6A62415CA8300039660 /* Feed.State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6A52415CA8300039660 /* Feed.State.swift */; };
@@ -31,6 +33,17 @@
 		C4C1D6B42415DA3800039660 /* Feed.Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B32415DA3800039660 /* Feed.Store.swift */; };
 		C4C1D6B62415DA8200039660 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B52415DA8100039660 /* Store.swift */; };
 		C4C1D6B82415DA9A00039660 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B72415DA9A00039660 /* Action.swift */; };
+		C4C1D6BC2415EC2200039660 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6BB2415EC2200039660 /* Listener.swift */; };
+		C4C1D6C02415EE9C00039660 /* Weak.Hashbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6BF2415EE9C00039660 /* Weak.Hashbox.swift */; };
+		C4C1D6C22415EF2C00039660 /* WeakKey.Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6C12415EF2C00039660 /* WeakKey.Dictionary.swift */; };
+		C4C1D6C42415F5DF00039660 /* Root.Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6C32415F5DF00039660 /* Root.Store.swift */; };
+		C4C1D6C62415F5F900039660 /* Root.State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6C52415F5F900039660 /* Root.State.swift */; };
+		C4C1D6C82415F63B00039660 /* Root.Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6C72415F63B00039660 /* Root.Actions.swift */; };
+		C4C1D6CA2415F6B800039660 /* Root.Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6C92415F6B800039660 /* Root.Reducer.swift */; };
+		C4C1D6CC2415F76300039660 /* Favorites.State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6CB2415F76300039660 /* Favorites.State.swift */; };
+		C4C1D6CE2415F7A500039660 /* Favorites.Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6CD2415F7A500039660 /* Favorites.Actions.swift */; };
+		C4C1D6D02415F7C000039660 /* Favorites.Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6CF2415F7C000039660 /* Favorites.Store.swift */; };
+		C4C1D6D22415F80C00039660 /* Favorites.Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6D12415F80C00039660 /* Favorites.Reducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +68,13 @@
 			remoteGlobalIDString = C4719FE02379408800F72EDA;
 			remoteInfo = DiffValue;
 		};
+		C452C37724160313006404EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41F4E3124159813006BBD4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41F4E3824159813006BBD4C;
+			remoteInfo = DiffValueExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +93,10 @@
 		C41F4E772415AEBA006BBD4C /* Favorites.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.ViewController.swift; sourceTree = "<group>"; };
 		C41F4E792415AEE1006BBD4C /* Favorites.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.View.swift; sourceTree = "<group>"; };
 		C41F4E7B2415AF2F006BBD4C /* Root.Tab.Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.Tab.Items.swift; sourceTree = "<group>"; };
+		C452C36B2415FFC5006404EF /* Subscription.Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.Map.swift; sourceTree = "<group>"; };
+		C452C37224160313006404EF /* DiffValueExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffValueExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C452C37424160313006404EF /* DiffValueExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffValueExampleTests.swift; sourceTree = "<group>"; };
+		C452C37624160313006404EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C1D6A02415B96A00039660 /* Feed.Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.Cell.swift; sourceTree = "<group>"; };
 		C4C1D6A32415C97300039660 /* Feed.Vertical.AlignedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.Vertical.AlignedLabel.swift; sourceTree = "<group>"; };
 		C4C1D6A52415CA8300039660 /* Feed.State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.State.swift; sourceTree = "<group>"; };
@@ -85,10 +109,28 @@
 		C4C1D6B32415DA3800039660 /* Feed.Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.Store.swift; sourceTree = "<group>"; };
 		C4C1D6B52415DA8100039660 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		C4C1D6B72415DA9A00039660 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		C4C1D6BB2415EC2200039660 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		C4C1D6BF2415EE9C00039660 /* Weak.Hashbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.Hashbox.swift; sourceTree = "<group>"; };
+		C4C1D6C12415EF2C00039660 /* WeakKey.Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakKey.Dictionary.swift; sourceTree = "<group>"; };
+		C4C1D6C32415F5DF00039660 /* Root.Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.Store.swift; sourceTree = "<group>"; };
+		C4C1D6C52415F5F900039660 /* Root.State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.State.swift; sourceTree = "<group>"; };
+		C4C1D6C72415F63B00039660 /* Root.Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.Actions.swift; sourceTree = "<group>"; };
+		C4C1D6C92415F6B800039660 /* Root.Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.Reducer.swift; sourceTree = "<group>"; };
+		C4C1D6CB2415F76300039660 /* Favorites.State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.State.swift; sourceTree = "<group>"; };
+		C4C1D6CD2415F7A500039660 /* Favorites.Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.Actions.swift; sourceTree = "<group>"; };
+		C4C1D6CF2415F7C000039660 /* Favorites.Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.Store.swift; sourceTree = "<group>"; };
+		C4C1D6D12415F80C00039660 /* Favorites.Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.Reducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C41F4E3624159813006BBD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C452C36F24160313006404EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,6 +145,7 @@
 			children = (
 				C41F4E512415A1F3006BBD4C /* Dependencies */,
 				C41F4E3B24159813006BBD4C /* DiffValueExample */,
+				C452C37324160313006404EF /* DiffValueExampleTests */,
 				C41F4E3A24159813006BBD4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				C41F4E3924159813006BBD4C /* DiffValueExample.app */,
+				C452C37224160313006404EF /* DiffValueExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,14 +162,12 @@
 		C41F4E3B24159813006BBD4C /* DiffValueExample */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6BD2415EE8200039660 /* Redux */,
 				C41F4E5D2415AAE3006BBD4C /* Root */,
 				C41F4E5E2415AAE7006BBD4C /* Feed */,
 				C41F4E5F2415AAED006BBD4C /* Favorites */,
 				C41F4E692415AB44006BBD4C /* Network */,
 				C41F4E3C24159813006BBD4C /* AppDelegate.swift */,
-				C4C1D6AD2415D8DA00039660 /* Reducer.swift */,
-				C4C1D6B52415DA8100039660 /* Store.swift */,
-				C4C1D6B72415DA9A00039660 /* Action.swift */,
 				C41F4E3E24159813006BBD4C /* SceneDelegate.swift */,
 				C41F4E4524159815006BBD4C /* Assets.xcassets */,
 				C41F4E4724159815006BBD4C /* LaunchScreen.storyboard */,
@@ -187,6 +229,8 @@
 		C41F4E602415AAFA006BBD4C /* State */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6C52415F5F900039660 /* Root.State.swift */,
+				C4C1D6C92415F6B800039660 /* Root.Reducer.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -203,6 +247,8 @@
 		C41F4E622415AB03006BBD4C /* State */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6CB2415F76300039660 /* Favorites.State.swift */,
+				C4C1D6D12415F80C00039660 /* Favorites.Reducer.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -210,6 +256,7 @@
 		C41F4E632415AB0C006BBD4C /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6C32415F5DF00039660 /* Root.Store.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -225,6 +272,7 @@
 		C41F4E652415AB15006BBD4C /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6CF2415F7C000039660 /* Favorites.Store.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -273,6 +321,7 @@
 		C41F4E702415AC0C006BBD4C /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6C72415F63B00039660 /* Root.Actions.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -288,8 +337,40 @@
 		C41F4E722415AC14006BBD4C /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6CD2415F7A500039660 /* Favorites.Actions.swift */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		C452C37324160313006404EF /* DiffValueExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C452C37424160313006404EF /* DiffValueExampleTests.swift */,
+				C452C37624160313006404EF /* Info.plist */,
+			);
+			path = DiffValueExampleTests;
+			sourceTree = "<group>";
+		};
+		C4C1D6BD2415EE8200039660 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				C4C1D6BB2415EC2200039660 /* Listener.swift */,
+				C4C1D6AD2415D8DA00039660 /* Reducer.swift */,
+				C452C36B2415FFC5006404EF /* Subscription.Map.swift */,
+				C4C1D6B52415DA8100039660 /* Store.swift */,
+				C4C1D6B72415DA9A00039660 /* Action.swift */,
+				C4C1D6BE2415EE9000039660 /* Weak */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		C4C1D6BE2415EE9000039660 /* Weak */ = {
+			isa = PBXGroup;
+			children = (
+				C4C1D6BF2415EE9C00039660 /* Weak.Hashbox.swift */,
+				C4C1D6C12415EF2C00039660 /* WeakKey.Dictionary.swift */,
+			);
+			path = Weak;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +394,24 @@
 			productReference = C41F4E3924159813006BBD4C /* DiffValueExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C452C37124160313006404EF /* DiffValueExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C452C37924160313006404EF /* Build configuration list for PBXNativeTarget "DiffValueExampleTests" */;
+			buildPhases = (
+				C452C36E24160313006404EF /* Sources */,
+				C452C36F24160313006404EF /* Frameworks */,
+				C452C37024160313006404EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C452C37824160313006404EF /* PBXTargetDependency */,
+			);
+			name = DiffValueExampleTests;
+			productName = DiffValueExampleTests;
+			productReference = C452C37224160313006404EF /* DiffValueExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -325,6 +424,10 @@
 				TargetAttributes = {
 					C41F4E3824159813006BBD4C = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					C452C37124160313006404EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C41F4E3824159813006BBD4C;
 					};
 				};
 			};
@@ -348,6 +451,7 @@
 			projectRoot = "";
 			targets = (
 				C41F4E3824159813006BBD4C /* DiffValueExample */,
+				C452C37124160313006404EF /* DiffValueExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,6 +483,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C452C37024160313006404EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -386,16 +497,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C1D6C82415F63B00039660 /* Root.Actions.swift in Sources */,
+				C4C1D6C02415EE9C00039660 /* Weak.Hashbox.swift in Sources */,
 				C4C1D6B62415DA8200039660 /* Store.swift in Sources */,
 				C4C1D6B82415DA9A00039660 /* Action.swift in Sources */,
 				C41F4E3D24159813006BBD4C /* AppDelegate.swift in Sources */,
 				C41F4E782415AEBA006BBD4C /* Favorites.ViewController.swift in Sources */,
+				C452C36C2415FFC5006404EF /* Subscription.Map.swift in Sources */,
+				C4C1D6C62415F5F900039660 /* Root.State.swift in Sources */,
 				C4C1D6A12415B96B00039660 /* Feed.Cell.swift in Sources */,
 				C41F4E3F24159813006BBD4C /* SceneDelegate.swift in Sources */,
+				C4C1D6C22415EF2C00039660 /* WeakKey.Dictionary.swift in Sources */,
+				C4C1D6CC2415F76300039660 /* Favorites.State.swift in Sources */,
 				C4C1D6AC2415CDEC00039660 /* Effect.swift in Sources */,
+				C4C1D6D22415F80C00039660 /* Favorites.Reducer.swift in Sources */,
 				C4C1D6B22415D98000039660 /* Feed.Actions.swift in Sources */,
+				C4C1D6CA2415F6B800039660 /* Root.Reducer.swift in Sources */,
 				C4C1D6B42415DA3800039660 /* Feed.Store.swift in Sources */,
 				C4C1D6AA2415CDD600039660 /* Endpoint.swift in Sources */,
+				C4C1D6D02415F7C000039660 /* Favorites.Store.swift in Sources */,
 				C41F4E7A2415AEE1006BBD4C /* Favorites.View.swift in Sources */,
 				C4C1D6A62415CA8300039660 /* Feed.State.swift in Sources */,
 				C41F4E6D2415ABE3006BBD4C /* Feed.Navigation.Controller.swift in Sources */,
@@ -406,8 +526,19 @@
 				C41F4E6F2415ABF1006BBD4C /* Feed.ViewController.swift in Sources */,
 				C41F4E742415AC62006BBD4C /* Root.TabBar.Controller.swift in Sources */,
 				C4C1D6B02415D96800039660 /* Feed.Reducer.swift in Sources */,
+				C4C1D6CE2415F7A500039660 /* Favorites.Actions.swift in Sources */,
+				C4C1D6BC2415EC2200039660 /* Listener.swift in Sources */,
 				C41F4E7C2415AF2F006BBD4C /* Root.Tab.Items.swift in Sources */,
+				C4C1D6C42415F5DF00039660 /* Root.Store.swift in Sources */,
 				C41F4E762415AEB1006BBD4C /* Favorites.Navigation.Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C452C36E24160313006404EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452C37524160313006404EF /* DiffValueExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +549,11 @@
 			isa = PBXTargetDependency;
 			name = DiffValue;
 			targetProxy = C41F4E5B2415A2B7006BBD4C /* PBXContainerItemProxy */;
+		};
+		C452C37824160313006404EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41F4E3824159813006BBD4C /* DiffValueExample */;
+			targetProxy = C452C37724160313006404EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -583,6 +719,46 @@
 			};
 			name = Release;
 		};
+		C452C37A24160313006404EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVL2DEPTTR;
+				INFOPLIST_FILE = DiffValueExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkhaider.DiffValueExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiffValueExample.app/DiffValueExample";
+			};
+			name = Debug;
+		};
+		C452C37B24160313006404EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVL2DEPTTR;
+				INFOPLIST_FILE = DiffValueExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkhaider.DiffValueExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiffValueExample.app/DiffValueExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,6 +776,15 @@
 			buildConfigurations = (
 				C41F4E4E24159815006BBD4C /* Debug */,
 				C41F4E4F24159815006BBD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C452C37924160313006404EF /* Build configuration list for PBXNativeTarget "DiffValueExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C452C37A24160313006404EF /* Debug */,
+				C452C37B24160313006404EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

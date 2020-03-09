@@ -13,13 +13,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     lazy var window: UIWindow? = {
         return UIWindow(frame: UIScreen.main.coordinateSpace.bounds)
     }()
+    
+    lazy var rootStore: RootStore = {
+        return RootStore()
+    }()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window?.windowScene = windowScene
         
-        let viewController = RootTabBarController()
+        let viewController = RootTabBarController(store: rootStore)
         
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()

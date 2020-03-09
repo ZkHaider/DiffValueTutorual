@@ -10,6 +10,10 @@ import UIKit
 
 final class FeedViewController: UIViewController {
     
+    // MARK: - Store
+    
+    let store: FeedStore
+    
     // MARK: - Views
     
     var _view: FeedView {
@@ -18,7 +22,8 @@ final class FeedViewController: UIViewController {
     
     // MARK: - Init
     
-    init() {
+    init(store: FeedStore) {
+        self.store = store 
         super.init(nibName: nil, bundle: nil)
         initialize()
     }
