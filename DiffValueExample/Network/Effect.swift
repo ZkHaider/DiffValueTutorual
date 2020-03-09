@@ -8,6 +8,18 @@
 
 import Foundation
 
-public struct Effect<T> {
-    public let run: (@escaping (T) -> Void) -> Void
+public protocol AnyEffect {
+    var anyRun: (@escaping (Any) -> Void) -> Void { get }
+}
+
+public struct Effect<A>: AnyEffect {
+    public let run: (@escaping (A) -> Void) -> Void
+}
+
+extension Effect {
+    
+    public var anyRun: (@escaping (Any) -> Void) -> Void {
+        return run
+    }
+    
 }

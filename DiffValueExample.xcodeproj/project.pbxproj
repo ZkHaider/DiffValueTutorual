@@ -25,6 +25,12 @@
 		C4C1D6A82415CC2500039660 /* Hacker.News.API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6A72415CC2500039660 /* Hacker.News.API.swift */; };
 		C4C1D6AA2415CDD600039660 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6A92415CDD600039660 /* Endpoint.swift */; };
 		C4C1D6AC2415CDEC00039660 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6AB2415CDEC00039660 /* Effect.swift */; };
+		C4C1D6AE2415D8DA00039660 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6AD2415D8DA00039660 /* Reducer.swift */; };
+		C4C1D6B02415D96800039660 /* Feed.Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6AF2415D96800039660 /* Feed.Reducer.swift */; };
+		C4C1D6B22415D98000039660 /* Feed.Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B12415D98000039660 /* Feed.Actions.swift */; };
+		C4C1D6B42415DA3800039660 /* Feed.Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B32415DA3800039660 /* Feed.Store.swift */; };
+		C4C1D6B62415DA8200039660 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B52415DA8100039660 /* Store.swift */; };
+		C4C1D6B82415DA9A00039660 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1D6B72415DA9A00039660 /* Action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,12 @@
 		C4C1D6A72415CC2500039660 /* Hacker.News.API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker.News.API.swift; sourceTree = "<group>"; };
 		C4C1D6A92415CDD600039660 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		C4C1D6AB2415CDEC00039660 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		C4C1D6AD2415D8DA00039660 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		C4C1D6AF2415D96800039660 /* Feed.Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.Reducer.swift; sourceTree = "<group>"; };
+		C4C1D6B12415D98000039660 /* Feed.Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.Actions.swift; sourceTree = "<group>"; };
+		C4C1D6B32415DA3800039660 /* Feed.Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.Store.swift; sourceTree = "<group>"; };
+		C4C1D6B52415DA8100039660 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		C4C1D6B72415DA9A00039660 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,9 @@
 				C41F4E5F2415AAED006BBD4C /* Favorites */,
 				C41F4E692415AB44006BBD4C /* Network */,
 				C41F4E3C24159813006BBD4C /* AppDelegate.swift */,
+				C4C1D6AD2415D8DA00039660 /* Reducer.swift */,
+				C4C1D6B52415DA8100039660 /* Store.swift */,
+				C4C1D6B72415DA9A00039660 /* Action.swift */,
 				C41F4E3E24159813006BBD4C /* SceneDelegate.swift */,
 				C41F4E4524159815006BBD4C /* Assets.xcassets */,
 				C41F4E4724159815006BBD4C /* LaunchScreen.storyboard */,
@@ -180,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				C4C1D6A52415CA8300039660 /* Feed.State.swift */,
+				C4C1D6AF2415D96800039660 /* Feed.Reducer.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -201,6 +217,7 @@
 		C41F4E642415AB11006BBD4C /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6B32415DA3800039660 /* Feed.Store.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -263,6 +280,7 @@
 		C41F4E712415AC10006BBD4C /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1D6B12415D98000039660 /* Feed.Actions.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -368,20 +386,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C1D6B62415DA8200039660 /* Store.swift in Sources */,
+				C4C1D6B82415DA9A00039660 /* Action.swift in Sources */,
 				C41F4E3D24159813006BBD4C /* AppDelegate.swift in Sources */,
 				C41F4E782415AEBA006BBD4C /* Favorites.ViewController.swift in Sources */,
 				C4C1D6A12415B96B00039660 /* Feed.Cell.swift in Sources */,
 				C41F4E3F24159813006BBD4C /* SceneDelegate.swift in Sources */,
 				C4C1D6AC2415CDEC00039660 /* Effect.swift in Sources */,
+				C4C1D6B22415D98000039660 /* Feed.Actions.swift in Sources */,
+				C4C1D6B42415DA3800039660 /* Feed.Store.swift in Sources */,
 				C4C1D6AA2415CDD600039660 /* Endpoint.swift in Sources */,
 				C41F4E7A2415AEE1006BBD4C /* Favorites.View.swift in Sources */,
 				C4C1D6A62415CA8300039660 /* Feed.State.swift in Sources */,
 				C41F4E6D2415ABE3006BBD4C /* Feed.Navigation.Controller.swift in Sources */,
+				C4C1D6AE2415D8DA00039660 /* Reducer.swift in Sources */,
 				C4C1D6A42415C97300039660 /* Feed.Vertical.AlignedLabel.swift in Sources */,
 				C4C1D6A82415CC2500039660 /* Hacker.News.API.swift in Sources */,
 				C41F4E6B2415ABDC006BBD4C /* Feed.View.swift in Sources */,
 				C41F4E6F2415ABF1006BBD4C /* Feed.ViewController.swift in Sources */,
 				C41F4E742415AC62006BBD4C /* Root.TabBar.Controller.swift in Sources */,
+				C4C1D6B02415D96800039660 /* Feed.Reducer.swift in Sources */,
 				C41F4E7C2415AF2F006BBD4C /* Root.Tab.Items.swift in Sources */,
 				C41F4E762415AEB1006BBD4C /* Favorites.Navigation.Controller.swift in Sources */,
 			);

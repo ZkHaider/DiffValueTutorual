@@ -23,15 +23,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
-        
-        HackerNewsAPI.fetch(on: .topStories).run { (result: Result<[Int], NetworkError>) in
-            switch result {
-            case .success(let storyIds):
-                print(storyIds)
-            case .failure(let error):
-                print(error)
-            }
-        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
