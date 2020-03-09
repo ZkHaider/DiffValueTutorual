@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/DiffValue"]
+	path = Carthage/Checkouts/DiffValue
+	url = https://github.com/ZkHaider/DiffValue.git
